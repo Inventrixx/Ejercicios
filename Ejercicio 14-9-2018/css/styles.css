@@ -1,0 +1,377 @@
+body {
+
+  margin: auto;
+  font-family: georgia;
+  border-radius: 5%;
+}
+
+.main-container {
+
+    width: auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,edf1f2+35,09f299+62,f4097b+91&0+0,0.65+100 */
+  background: -moz-linear-gradient(-45deg, rgba(0,0,0,0) 0%, rgba(237,241,242,0.23) 35%, rgba(9,242,153,0.4) 62%, rgba(244,9,123,0.59) 91%, rgba(244,9,123,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0) 0%,rgba(237,241,242,0.23) 35%,rgba(9,242,153,0.4) 62%,rgba(244,9,123,0.59) 91%,rgba(244,9,123,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(237,241,242,0.23) 35%,rgba(9,242,153,0.4) 62%,rgba(244,9,123,0.59) 91%,rgba(244,9,123,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6f4097b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.barra {
+
+  margin-left: 10px;
+  width: 100%;
+  height: 60px;
+  background: -moz-linear-gradient(-45deg, rgba(232,9,157,0.65) 0%, rgba(40,237,79,0.45) 30%, rgba(54,234,237,0.3) 53%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(232,9,157,0.65) 0%,rgba(40,237,79,0.45) 30%,rgba(54,234,237,0.3) 53%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(232,9,157,0.65) 0%,rgba(40,237,79,0.45) 30%,rgba(54,234,237,0.3) 53%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6e8099d', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-radius: 10%;
+
+}
+
+
+.cont-logo {
+
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+
+
+}
+
+.buscador {
+
+  display: none;
+}
+
+.icon-cart {
+
+  display: none;
+
+}
+
+.puzzle {
+
+  width: 100%;
+
+}
+
+.cont-icon i {
+
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 15px;
+  float: left;
+  color: black;
+
+}
+
+.fa-search {
+
+  font-size: 25px;
+
+}
+
+.bar-text {
+
+  text-align: center;
+  font-family: Georgia;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+
+
+}
+
+.second-container {
+
+  margin-left: 10px;
+
+}
+
+.img-venecia {
+
+  width:40%;
+  height:200px;
+  margin-left:30px;
+  margin-top:20px;
+  display: inline-block;
+
+
+}
+
+.venecia {
+
+  width: 100%;
+  border-radius: 3%;
+
+}
+
+
+
+.img-florencia {
+
+  width:40%;
+  height:200px;
+  margin-left:30px;
+  margin-top:10px;
+  display: inline-block;
+
+}
+
+.florencia {
+
+  width: 100%;
+  border-radius: 3%;
+
+}
+
+.img-tibet {
+
+  width:40%;
+  height:200px;
+  margin-left:30px;
+  margin-top:10px;
+  display: inline-block;
+
+
+
+}
+
+.tibet {
+
+  width: 100%;
+  border-radius: 3%;
+
+}
+
+.text-venecia {
+
+  display: none;
+  width: 40%;
+  margin-left: 30px;
+
+
+
+}
+
+.text-venecia-mobile {
+
+  display: inline-block;
+  width: 40%;
+
+
+}
+
+
+.text-florencia {
+
+  display: none;
+  width: 40%;
+  margin-left: 30px;
+
+}
+
+.text-florencia-mobile {
+
+  display: inline-block;
+  width: 40%;
+
+
+}
+
+
+.text-tibet {
+
+
+  width: 40%;
+  margin-left: 30px;
+  display:none;
+
+}
+
+.text-tibet-mobile {
+
+  display: inline-block;
+  width: 40%;
+
+}
+
+
+h1 {
+
+  font-size: 20px;
+}
+
+h3 {
+
+  font-size: 15px;
+
+
+
+}
+
+@media (min-width: 800px) {
+
+  body {
+    margin: auto;
+  }
+
+  .barra {
+
+    text-align: center;
+
+  }
+
+.cont-icon {
+
+  display: none;
+
+}
+  .buscador {
+    display: inline-block;
+    float: left;
+    margin-top:15px;
+    margin-left:10px;
+    width: 800px;
+  }
+
+  input[type="text"] {
+
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+
+  }
+
+  .icon-cart {
+
+    display: inline-block;
+    width: 200px;
+    margin-top: 15px;
+    font-size: 30px;
+    float: right;
+
+  }
+
+.cont-venecia {
+
+    height: 600px;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.img-venecia {
+
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.venecia {
+
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+
+}
+
+.text-venecia {
+
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+
+}
+
+.text-venecia-mobile {
+
+  display:none;
+}
+
+.cont-florencia {
+
+    height: 600px;
+    width: 33%;;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.img-florencia {
+
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.florencia {
+
+  width: 100%;
+  border-radius: 3%;
+
+}
+
+.text-florencia {
+
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+
+}
+
+.text-florencia-mobile{
+
+  display:none;
+}
+
+.cont-tibet {
+
+  height: 600px;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.img-tibet {
+
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.tibet {
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+}
+
+.text-tibet {
+
+  width: 100%;
+  display: inline-block;
+  margin:auto;
+
+}
+
+.text-tibet-mobile{
+
+  display:none;
+}
+
+
+}
+
+
+/*Consulta 2: QUÉ MIERDA ES ESE ESPACIO EN BLANCO ABAJO DE TODO. */
